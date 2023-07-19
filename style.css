@@ -76,6 +76,15 @@ nav {
     font-size: 15px;
     text-decoration: none;
 }
+.follow-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.follow-us .fa-brands {
+    font-size: 20px;
+}
 .nav-item-container a{
     text-decoration: none;
     font-size: 15px;
@@ -220,7 +229,7 @@ nav {
 footer {
     background: #0B0223;
     height: 500px;
-    padding: 100px;
+    padding: 70px;
 }
 
 .footer-container {
@@ -242,6 +251,14 @@ footer {
 }
 .footer-item-container a{
     color: white;
+}
+.footer-item-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.fa-brands{
+    font-size: 35px;
 }
 
 .footer-setting {
