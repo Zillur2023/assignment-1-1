@@ -341,7 +341,7 @@ footer {
     }
     /* banner section */
     .banner-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner-text {
         width: 100%;
