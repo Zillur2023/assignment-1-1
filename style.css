@@ -395,6 +395,7 @@ footer {
     /* play game section */
     .play-game {
         margin: 40px ;
+    
     }
     .list-one {
         width: 100%;
@@ -414,11 +415,9 @@ footer {
     /* footer section */
     .footer-container {
         background-color: #0B0223;
-        
+        margin: 0 auto;
     } 
-    .footer-setting p {
-        background-color: #0B0223;
-        width: 100%;
+  
     }
     .footer-item-container {
         flex-direction: column;
