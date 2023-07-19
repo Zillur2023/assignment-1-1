@@ -1,0 +1,218 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+/* common style */
+.common-color {
+    color: 	#FF1493;
+}
+.title-text {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.title-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn {
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+    border: none;
+}
+.text-size1 {
+    color: #534C64;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.text-size2 {
+    /* font-family: 'Work Sans', sans-serif; */
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.text-size3 {
+    color: #534C64;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    }
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav style */
+nav {
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    
+  
+}
+.nav-item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.logo-container img{
+    width: 60px;
+    height: 30px;
+    margin-right: 12px;
+}
+/* banner section style */
+.GOAT {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.banner-container {
+    background: #FFF;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.banner-text {
+    text-align: left;
+    padding-top: 80px;
+}
+.banner-text h2{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600; 
+}
+.banner-text button{
+    color: white;
+    background-color:#FF1493;
+}
+.banner-img {
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    
+}
+/* gamer section style */
+.gamer-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+.gamer-text {
+    width: 50%;
+    text-align: right;
+}
+.gamer-text p{
+    text-align: right;
+}
+.gamer-text button{
+    color: white;
+    background-color:#FF1493;
+}
+.gamer-text h2{
+    color: #534C64;
+}
+.gamer-img {
+    width: 50%;
+}
+.gamer-img img{
+    width: 100%;
+}
+/* online games container style */
+.online-games-container h1,p{
+    text-align: center;
+}
+.online-games-grid {
+    max-width: 1000px;
+    margin: 50px auto 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,1fr);
+}
+.online-games {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+.online-games p{
+    text-align: left;
+}
+.online-games img{
+    width: 100%;
+    display: block;
+    margin: 0 auto
+  
+}
+/* play instantly style */
+.play-instantly-container {
+    background: #FFF;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    
+}
+.play-instantly-text {
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 100px;
+
+    
+}
+.play-instantly-text h1,p{
+    text-align: right;
+    
+}
+.play-instantly-img {
+    width: 40%;
+    
+}
+.play-instantly-img img{
+    width: 100%;
+    margin-left: ;
+}
+.mini-cat {
+    border-radius: 10px;
+    width: 230px;
+    position: relative;
+    bottom: 160px;
+    right: 100px;
+}
