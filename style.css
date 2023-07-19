@@ -371,6 +371,56 @@ footer {
         text-align: center;
         
     }
-    .
+    /* online gamer section */
+    .online-games-grid {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;
+    }
+    /* play instant section */
+    .play-instantly-container{
+        flex-direction: column;
+    } 
+    .play-instantly-text {
+        width: 100%;
+        text-align: center;
+    }
+    .play-instantly-img {
+        width: 100%;
+    }
+    .mini-cat {
+        width: 100%;
+        position: static;
+    }
+    /* play game section */
+    .play-game {
+        margin: 40px ;
+    }
+    .list-one {
+        width: 100%;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
 
+    }
+    .list-two {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 1fr;
+
+    }
+    /* footer section */
+    .footer-container {
+        background-color: #0B0223;
+        
+    } 
+    .footer-setting p {
+        background-color: #0B0223;
+        width: 100%;
+    }
+    .footer-item-container {
+        flex-direction: column;
+    }
 }
