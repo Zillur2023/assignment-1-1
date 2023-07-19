@@ -216,3 +216,46 @@ nav {
     bottom: 160px;
     right: 100px;
 }
+/* footer container style */
+footer {
+    background: #0B0223;
+    height: 500px;
+    padding: 100px;
+}
+
+.footer-container {
+    background: #0B0223;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+.footer-container p{
+    text-align: center;
+}
+.footer-setting a,.footer-item-container a{
+    text-decoration: none;
+   ;
+}
+.footer-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item-container a{
+    color: white;
+}
+
+.footer-setting {
+    display: flex;
+    justify-content: space-around;
+}
+.gamer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamer img{
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+}
