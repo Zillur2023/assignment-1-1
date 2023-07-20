@@ -387,6 +387,9 @@ footer {
         width: 100%;
         padding: 0 0;
     }
+    .play-instantly-container p{
+        padding-bottom: 10px;
+    }
     .play-instantly-img {
         width: 100%;
         text-align: right;
