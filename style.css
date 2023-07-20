@@ -168,7 +168,7 @@ nav {
 .gamer-img img{
     width: 100%;
 }
-/* online games container style */
+                   /* online games container style */
 .online-games-container p,h1 {
     text-align: center;
 }
@@ -195,14 +195,14 @@ nav {
     margin: 0 auto
   
 }
-/* play instantly style */
+                  /* play instantly style */
 .play-instantly-container {
     background: #FFF;
     max-width: 1000px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
-    align-items: ;
+    
 
     
 }
@@ -223,7 +223,6 @@ nav {
 }
 .play-instantly-img img{
     width: 100%;
-    margin-left: ;
 }
 .mini-cat {
     border-radius: 10px;
@@ -232,7 +231,7 @@ nav {
     bottom: 160px;
     right: 100px;
 }
-/* play game section style */
+                  /* play game section style */
 .play-game {
     max-width: 1000px;
     margin: 0  auto;
@@ -272,7 +271,7 @@ nav {
     align-items: center;
     gap: 20px;
 }
-/* footer container style */
+                  /* footer container style */
 footer {
     background: #0B0223;
     height: 500px;
@@ -323,21 +322,18 @@ footer {
     height: 30px;
     margin-right: 15px;
 }
-/*  For mobile responsibe */
+                  /*  For mobile responsibe */
 @media screen and (max-width: 600px) {
 /* nav section */
     .nav-container {
         flex-direction: column;
         width: 100%;
-        height: ;
+        
     }
-    .logo-container {
-        flex-direction: column;
-        width: 0%;
-    }
+    
     .nav-item-container {
         flex-direction: column;
-
+        gap: 20px;
     }
     /* banner section */
     .banner-container {
@@ -361,15 +357,19 @@ footer {
     .gamer-img {
         width: 100%;
     }
+    
     .gamer-text {
         width: 100%;
     }
-    .gamer-text ,p,h2{
+    .gamer-text ,p,h2,button{
         text-align: center;
     }
-    .gamer-text .text-size3 {
+    .gamer-text .text-size3  {
         text-align: center;
         
+    }
+    .gamer-text .text-size1{
+        text-align: center;
     }
     /* online gamer section */
     .online-games-grid {
@@ -380,47 +380,59 @@ footer {
     /* play instant section */
     .play-instantly-container{
         flex-direction: column;
-    } 
+    }
     .play-instantly-text {
         width: 100%;
-        text-align: center;
+        padding: 0 0;
     }
     .play-instantly-img {
         width: 100%;
+        text-align: right;
+        
+    }
+    .play-instantly-img img {
+        width: 90%;
     }
     .mini-cat {
-        width: 100%;
-        position: static;
+        width: 50%;
+        position: relative;
+        bottom: 130px;
+        right: 20px;
     }
-    /* play game section */
-    .play-game {
-        margin: 40px ;
     
-    }
-    .list-one {
-        width: 100%;
-        display: grid;
-        align-content: center;
-        justify-content: center;
-        grid-template-columns: 1fr;
+    /* play game section */
+  .play-game {
+    width: 100%;
+  }
+  
+ 
+  
+   .play {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 33px;
+   }
 
-    }
-    .list-two {
-        width: 100%;
-        display: grid;
-        justify-content: space-around;
-        grid-template-columns: 1fr;
-
-    }
+    
     /* footer section */
     .footer-container {
         background-color: #0B0223;
         margin: 0 auto;
-    } 
-  
+        width: 100%;
     }
+
     .footer-item-container {
-        flex-direction: column;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        
     }
+    .footer-item-logo {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
 }
-/* same design for desktop or tablet */
