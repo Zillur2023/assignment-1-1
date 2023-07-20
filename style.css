@@ -342,6 +342,7 @@ footer {
     .banner-text {
         width: 100%;
         text-align: center;
+        padding-top: 30px;
     }
     .play-instantly-text h1, p {
         text-align: center;
@@ -380,6 +381,7 @@ footer {
     /* play instant section */
     .play-instantly-container{
         flex-direction: column;
+        margin-top: 30px;
     }
     .play-instantly-text {
         width: 100%;
